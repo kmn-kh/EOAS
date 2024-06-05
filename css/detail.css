@@ -1,0 +1,547 @@
+* {
+    padding: 5px;
+    margin: 5px;
+    font-family: Khmer OS Content;
+
+}
+
+h3 {
+    
+    text-align: center;
+    padding: 15px;
+    background-color: rgb(17, 183, 92);
+    font-family: KH Koulen;
+    font-size: 20px;
+    width: 83.5%;
+    /* height: 10vh; */
+    border: none;
+    border-radius: 5px 5px 5px 5px;
+    position: absolute;
+    left: 100px;
+    top: 5px;
+
+}
+#title1 {
+    text-align: center;
+    padding: 15px;
+    background-color: rgb(17, 183, 92);
+    font-family: Khmer OS Content;
+    color: aliceblue;
+    font-size: 25px;
+    text-align: center;
+    width: 20%;
+    height: 7vh;
+    border: none;
+   border-radius: 5px 5px 5px 5px;
+    position: absolute;
+    left: 600px;
+    top: 270px;
+}
+.container1 {
+    font-family: Khmer OS Content;
+    color: rgb(0, 0, 0);
+    background-color: white;
+    box-shadow: 1px 2px 3px 0px black;
+    width: 85%;
+    height: 150vh;
+    margin-left: 90px;
+
+}
+#info_personal{
+    font-family: Khmer OS Content;
+    background-color: rgba(205, 207, 206, 0.703);
+    border-radius: 5px 5px 5px 5px;
+    width: 100.9%;
+    height: 6vh;
+    margin-top: -5px;
+    margin-left: -5px;
+    font-weight: bolder;
+    color: black;
+ 
+}
+.info{
+    background-color: rgba(205, 207, 206, 0.107);
+    width: 95%;
+    height: 33vh;
+    margin-top: 30px;
+    margin: 15px;
+  
+  
+}
+#id1{
+   margin: 70px;
+   position: absolute;
+   top: 60px;
+   left: 180px;
+}
+#id{
+    background-color: rgba(249, 249, 249, 0);
+    border: none;
+    border-radius: 5px 5px 5px 5px;
+    width: 5%;
+   position: absolute;
+   top: 125px;
+   left: 345px;
+}
+
+/* name */
+
+#first_name {
+
+    margin-top: 55px;
+    border: none;
+    background-color: rgba(249, 249, 249, 0);
+    width: 2%;
+    position: absolute;
+    top: 105px;
+    left: 340px;
+}
+
+#fname {
+
+    margin: 70px;
+    position: absolute;
+    top: 95px;
+    left: 136px;
+   
+}
+
+#last_name {
+    border: none;
+    background-color: rgba(249, 249, 249, 0);
+    width: 5%;
+    position: absolute;
+    top: 160px;
+    left: 370px;
+
+}
+
+#lname {
+    position: absolute;
+    top: 87px;
+    left: 435px;
+
+}
+
+#latang {
+    border: none;
+    background-color: rgba(249, 249, 249, 0);
+    position: absolute;
+    top: 160px;
+    left: 600px;
+    width: 10%;
+}
+
+#latang1 {
+    position: absolute;
+    top: 155px;
+    left: 500px;
+
+}
+
+/* sex */
+#sex {
+  
+    position: absolute;
+    top: 155px;
+    left: 780px;
+}
+
+#male {
+    border: none;
+    background-color: rgba(249, 249, 249, 0);
+    position: absolute;
+    top: 160px;
+    left: 840px;
+    width: 5%;
+}
+
+#female2 {
+    border: none;
+    background-color: rgba(249, 249, 249, 0);;
+    position: absolute;
+    top: 170px;
+    right: 1000px;
+    /* flex-direction: ; */
+} 
+
+/* date */
+#date {
+  
+    position: absolute;
+    top: 195px;
+    left: 160px;
+}
+
+#dob {
+    border: none;
+    background-color: rgba(249, 249, 249, 0);
+    position: absolute;
+    top: 195px;
+    left: 340px;
+    width: 8%;
+}
+
+/* address */
+
+.address {
+
+    position: absolute;
+    top: 225px;
+    left: 187px;
+
+
+
+}
+
+#address2{
+    border: none;
+    background-color: rgba(249, 249, 249, 0);
+    position: absolute;
+    top: 225px;
+    left: 340px;
+    width: 25%;
+}
+
+/* contact */
+.phone {
+
+    position: absolute;
+    top: 255px;
+    left: 135px;
+}
+
+#phone1 {
+    border: none;
+    background-color: rgba(249, 249, 249, 0);
+    position: absolute;
+    top: 260px;
+    left: 335px;
+    width: 8%;
+    
+}
+
+.parent_number {
+    position: absolute;
+    top: 255px;
+    left: 485px;
+}
+
+#parent_number1 {
+    border: none;
+    background-color: rgba(249, 249, 249, 0);
+    position: absolute;
+    top: 260px;
+    left: 685px;
+    width: 8%;
+}
+
+#info_study{
+    font-family: Khmer OS Content;
+    background-color: rgba(205, 207, 206, 0.703);
+    border-radius: 5px 5px 5px 5px;
+    width: 100.7%;
+    height: 6vh;
+    margin-top: -5px;
+    margin-left: -5px;
+    font-weight: bolder;
+    color: black;
+}
+.info_stu{
+    background-color: rgba(205, 207, 206, 0.107);
+    width: 95%;
+    height: 33vh;
+    margin-top: 30px;
+    margin: 15px;
+}
+/* highschool */
+.end_of_highschool {
+   
+    position: absolute;
+    top: 520px;
+    left: 170px;
+}
+
+#end_of_highschool1 {
+    border: none;
+    background-color: rgba(249, 249, 249, 0);
+    position: absolute;
+    top: 523px;
+    left: 335px;
+    width: 10%;
+}
+
+/* level of study */
+.level_study {
+  
+    background-color: rgba(249, 249, 249, 0);
+    font-family: Khmer OS Content;
+    position: absolute;
+    top: 400px;
+    left: 136px;
+}
+
+#level_study1 {
+    font-family: Khmer OS Content;
+    border: none;
+    background-color: rgba(249, 249, 249, 0);
+    position: absolute;
+    top: 400px;
+    left: 340px;
+    width: 10%;
+
+}
+
+/* bacll */
+.place_exambacll {
+    position: absolute;
+    top: 430px;
+    left: 170px;
+}
+
+#place_exambacll1 {
+    border: none;
+    background-color: rgba(249, 249, 249, 0);
+    position: absolute;
+    top: 433px;
+    left: 340px;
+    width: 10%;
+}
+.date_bacll{
+    position: absolute;
+    top: 430px;
+    left: 490px;
+}
+#date_bacll1{
+    border: none;
+    background-color: rgba(249, 249, 249, 0);
+    position: absolute;
+    top: 433px;
+    left: 620px;
+    width: 8%;
+}
+
+.number_room {
+    position: absolute;
+    top: 460px;
+    left: 200px;
+}
+
+#number_room1 {
+    border: none;
+    background-color: rgba(249, 249, 249, 0);
+    position: absolute;
+    top: 463px;
+    left: 340px;
+    width: 5%;
+}
+
+.number_table {
+    position: absolute;
+    top: 460px;
+    left: 533px;
+}
+
+#number_table1 {
+    border: none;
+    background-color: rgba(249, 249, 249, 0);
+    position: absolute;
+    top: 465px;
+    left: 620px;
+    width: 5%;
+    /* width: 43%; */
+}
+.num_certificate{
+    position: absolute;
+    top: 490px;
+    left: 170px;
+}
+#num_certificate_1{
+    border: none;
+    background-color: rgba(249, 249, 249, 0);
+    position: absolute;
+    top: 493px;
+    left: 335px;
+    width: 10%;
+}
+.num_personal{
+    position: absolute;
+    top: 490px;
+    left: 430px;
+}
+#num_personal_1{
+    border: none;
+    background-color: rgba(249, 249, 249, 0);
+    position: absolute;
+    top: 493px;
+    left: 620px;
+    width: 10%;
+}
+#info_dep{
+    font-family: Khmer OS Content;
+    background-color: rgba(205, 207, 206, 0.703);
+    border-radius: 5px 5px 5px 5px;
+    width: 100.7%;
+    height: 6vh;
+    margin-top: -5px;
+    margin-left: -5px;
+    font-weight: bolder;
+    color: black;
+}
+.info_department{
+    background-color: rgba(205, 207, 206, 0.107);
+    width: 95%;
+    height: 23vh;
+    margin-top: 30px;
+    margin: 15px;
+}
+.skill{
+    position: absolute;
+    top: 680px;
+    left: 208px;
+}
+#department{
+    border: none;
+    background-color: rgba(249, 249, 249, 0);
+    position: absolute;
+    top: 683px;
+    left: 343px;
+    width: 10%;
+}
+.skill1{
+    position: absolute;
+    top: 710px;
+    left: 205px;
+}
+#skill1_1{
+    border: none;
+    background-color: rgba(249, 249, 249, 0);
+    position: absolute;
+    top: 713px;
+    left: 343px;
+    width: 10%;
+}
+.skill2{
+    position: absolute;
+    top: 710px;
+    left: 530px;
+}
+#skill2_2{
+    border: none;
+    background-color: rgba(249, 249, 249, 0);
+    position: absolute;
+    top: 713px;
+    left: 630px;
+    width: 10%;
+}
+/* image */
+.img_student {
+    border: none;
+    position: absolute;
+    top: 260px;
+    left: 420px;
+    width: 9%;
+    background-color: rgb(230, 230, 230);
+    border-radius: 5px 5px 5px 5px;
+}
+
+#img_student1 {
+    position: absolute;
+    top: 290px;
+    left: 1130px;
+}
+
+.birth_certificate {
+    margin-left: 70px;
+    position: absolute;
+    top: 620px;
+    left: 300px;
+    border: none;
+    width: 13%;
+    background-color: rgb(230, 230, 230);
+    border-radius: 5px 5px 5px 5px;
+}
+
+#birth_certificate1 {
+    position: absolute;
+    top: 750px;
+    left: 183px;
+}
+
+.img_score {
+    margin-left: 70px;
+    position: absolute;
+    top: 620px;
+    left: 280px;
+    border: none;
+    width: 13%;
+    background-color: rgb(230, 230, 230);
+    border-radius: 5px 5px 5px 5px;
+}
+#img_score1 {
+    position: absolute;
+    top: 750px;
+    left: 540px;
+}
+
+.certificate {
+    margin-left: 70px;
+    position: absolute;
+    top: 700px;
+    left: 300px;
+    border: none;
+    width: 13%;
+    background-color: rgb(230, 230, 230);
+    border-radius: 5px 5px 5px 5px;
+}
+
+#certificate1 {
+    position: absolute;
+    top: 750px;
+    left: 330px;
+}
+.student-image{
+width: 20%;
+}
+
+/* sex */
+
+#back1{
+    border: none;
+    width: 8%;
+    height: 5vh;
+    background-color: rgb(6, 162, 94);
+    border-radius: 5px 5px 5px 5px;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 990px;
+    right: 245px;
+}
+#back1:hover{
+    background-color: rgb(165, 165, 165);
+    color: black;
+    transition: 0.6s;
+}
+
+.submit {
+    border: none;
+    width: 8%;
+    height: 5vh;
+
+    background-color: rgb(6, 139, 196);
+    border-radius: 5px 5px 5px 5px;
+    position: absolute;
+    top: 710px;
+    right: 320px;
+}
+/* ABOUT RESPONSIVE */
+
+
+
+
+
+
+
+

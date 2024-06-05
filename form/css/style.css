@@ -1,0 +1,300 @@
+/* *{
+    padding: 5px;
+    margin: 5px;
+   
+} */
+
+ h2{
+    text-align: center;
+    padding: 15px;
+    background-color: rgb(17, 183, 92);
+    font-family: Khmer OS Content;
+    color: aliceblue;
+    font-size: 25px;
+    width: 83.5%;
+    height: 10vh;
+    border: none;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    position: absolute;
+    right: 141px;
+    top: 5px;
+   
+}
+
+.container1{
+    font-family: Khmer OS Content;
+    color: rgb(0, 0, 0);
+    background-color: white;
+    box-shadow: 1px 2px 3px 0px black;
+    width: 85%;
+    height: 118vh;
+    margin-left: 90px;
+    
+}
+/* name */
+
+#first_name{
+   
+    margin-top: 55px;
+    }
+#fname {
+    
+    margin: 70px;
+    margin-top: 30px;
+    margin-left: 90px;
+}
+
+#last_name{
+   position: absolute;
+   top: 90px;
+   left: 800px;
+   
+}
+#lname{
+    position: absolute;
+    top: 87px;
+    left: 685px;
+   
+}
+#latang{
+    position: absolute;
+    top: 135px;
+    left: 370px;
+    width: 42.6%;
+}
+#latang1{
+    position: absolute;
+    top: 135px;
+    left: 200px;
+   
+}
+/* sex */
+#sex{
+    position: absolute;
+    top: 175px;
+    left: 250px;
+}
+#male {
+    position: absolute;
+    top: 185px;
+    right: 1138px;
+}
+#male2 {
+    position: absolute;
+    top: 170px;
+    right: 1090px;
+}
+#female {
+    position: absolute;
+    top: 185px;
+    right: 1070px;
+}
+#female2 {
+    position: absolute;
+    top: 170px;
+    right: 1000px;
+}
+/* date */
+#date{
+    position: absolute;
+    top: 220px;
+    left: 175px;
+}
+#dob{
+    position: absolute;
+    top: 220px;
+    left: 370px;
+    width: 42.6%;
+}
+/* address */
+
+.address{
+    margin-left: 70px;
+    position: absolute;
+    top: 260px;
+   
+   
+   
+ }
+ #address1{
+    position: absolute;
+    top: 260px;
+    left: 370px;
+ }
+ /* contact */
+.phone{
+    position: absolute;
+    top: 330px;
+    left: 156px;
+}
+#phone1{
+    position: absolute;
+    top: 330px;
+    left: 370px;
+    
+}
+.parent_number{
+    margin-left: 245px;
+    position: absolute;
+    top: 330px;
+    left: 340px;
+}
+#parent_number1{
+    position: absolute;
+    top: 330px;
+    right: 498px;
+}
+/* highschool */
+.end_of_highschool{
+    position: absolute;
+    top: 378px;
+    left: 186px;
+}
+#end_of_highschool1{
+    position: absolute;
+    top: 378px;
+    left: 370px;
+    width: 43%;
+}
+/* level of study */
+.level_study{
+    position: absolute;
+    top: 428px;
+    left: 163px;
+}
+#level_study1{
+    position: absolute;
+    top: 428px;
+    left: 370px;
+    width: 14%;
+    
+}
+/* bacll */
+.place_exambacll{
+    margin-left: 245px;
+    position: absolute;
+    top: 430px;
+    left: 420px;
+}
+#place_exambacll1{
+    position: absolute;
+    top: 430px;
+    right: 498px;
+}
+.number_room{
+    position: absolute;
+    top: 530px;
+    left: 216px;
+}
+#number_room1{
+    position: absolute;
+    top: 530px;
+    left: 370px;
+    width: 43%;
+}
+.number_table{
+    position: absolute;
+    top: 478px;
+    left: 240px;
+}
+#number_table1{
+    position: absolute;
+    top: 478px;
+    left: 370px;
+    width: 43%;
+}
+/* image */
+.img_student{
+    margin-left: 70px;
+   position: absolute;
+   top: 580px;
+   left: 300px;
+   border: none;
+   width: 13%;
+   background-color: rgb(230, 230, 230);
+   border-radius: 5px 5px 5px 5px;
+}
+#img_student1{
+    margin-left: 70px;
+   position: absolute;
+   top: 590px;
+   left: 132px;
+}
+.birth_certificate{
+    margin-left: 70px;
+    position: absolute;
+    top: 620px;
+    left: 300px;
+    border: none;
+    width: 13%;
+    background-color: rgb(230, 230, 230);
+    border-radius: 5px 5px 5px 5px;
+}
+
+#birth_certificate1{
+    margin-left: 70px;
+   position: absolute;
+   top: 628px;
+   left: 120px;
+}
+.img_score{
+    margin-left: 70px;
+   position: absolute;
+   top: 660px;
+   left: 300px;
+   border: none;
+   width: 13%;
+   background-color: rgb(230, 230, 230);
+   border-radius: 5px 5px 5px 5px;
+}
+#img_score1{
+    margin-left: 70px;
+   position: absolute;
+   top: 670px;
+   left: 142px;
+}
+.certificate{
+    margin-left: 70px;
+    position: absolute;
+    top: 700px;
+    left: 300px;
+    border: none;
+    width: 13%;
+    background-color: rgb(230, 230, 230);
+    border-radius: 5px 5px 5px 5px;
+}
+#certificate1{
+    margin-left: 70px;
+   position: absolute;
+   top: 700px;
+   left: 142px;
+}
+/* sex */
+
+.Reset{
+    border: none;
+    width: 8%;
+    height: 5vh;
+    background-color: rgb(225, 30, 16);
+    border-radius: 5px 5px 5px 5px;
+    position: absolute;
+    top: 710px;
+    right: 445px;
+}
+.submit{
+    border: none;
+    width: 8%;
+    height: 5vh;
+    
+    background-color: rgb(6, 139, 196);
+    border-radius: 5px 5px 5px 5px;
+    position: absolute;
+    top: 710px;
+    right: 320px;
+}
+/* @media only screen and (min-width: 500px) {
+    .container1{
+        flex-wrap: wrap;
+    }
+} */

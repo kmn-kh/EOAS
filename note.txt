@@ -1,0 +1,44 @@
+File I make
+
+* Folder (Admin, body, Departmen, Footer, Header, menu, No_need, Information_exam
+, Database, them)
+* Folder [Process(លើកលែងតែ process_form.php, process_update.php)]
+* File [ នៅក្រៅ Folder (
+    about_staff.php
+    add.php
+    al_staff_readmore.php
+    com_staff_readmore.php
+    delete.php
+    depanimal.php
+    depcom.php
+    depelect.php
+    depfood.php
+    depmacha.php
+    depplant.php
+    edit_footer.php
+    edit_header.php
+    edit.php
+    el_staff_readmore.php
+    ex.php
+    food_staff_readmore.php
+    index.php
+    information.php
+    insert_dep_al_staff.php
+    insert_dep_al.php
+    insert_dep_com_staff.php
+    insert_dep_com.php
+    insert_dep_el_staff.php
+    insert_dep_el.php
+    insert_dep_food_staff.php
+    insert_dep_food.php
+    insert_dep_food.php
+    insert_dep_macha_staff.php
+    insert_dep_macha.php
+    insert_dep_plant_staff.php
+    insert_dep_plant.php
+    macha_staff_readmore.php
+    plant_staff_readmore.php
+    slideshow.php
+    staff_login.php
+    staff.php
+)]

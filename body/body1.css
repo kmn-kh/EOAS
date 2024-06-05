@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Khmer OS Moullight;
+    src: url(Font/KhmerOSmuollight.ttf);
+}
+
+@font-face {
+    font-family: Times New Roman;
+    src: url(Font/times_0.ttf);
+}
+
+@font-face {
+    font-family: Khmer OS Siemreap;
+    src: url(Font/KhmerOSsiemreap.ttf);
+}
+
+.Slider_Show {
+    width: 100%;
+    height: auto;
+    /* background: rgb(255, 255, 255); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.Slider_Show {
+    .swiper {
+        width: 87%;
+        height: fit-content;
+        /* background-color: rgb(41, 12, 204); */
+        border-radius: 5px;
+    }
+}
+
+.Slider_Show {
+    .swiper img {
+        width: 100%;
+    }
+
+    .swiper .swiper-button-prev,
+    .swiper .swiper-button-next {
+        color: white;
+    }
+
+    .swiper .swiper-pagination-bullet-active {
+        background: white;
+    }
+}

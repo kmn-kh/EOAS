@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: Khmer OS Moullight;
+    src: url(Font/KhmerOSmuollight.ttf);
+}
+@font-face {
+    font-family: Times New Roman;
+    src: url(Font/times_0.ttf);
+}
+@font-face {
+    font-family: Khmer OS Siemreap;
+    src: url(Font/KhmerOSsiemreap.ttf);
+}
+.Foodter{
+    width: 100%;
+    height: 200px;
+    padding-bottom: 4px;
+    background-color: rgb(5, 122, 83);
+    display: flex;
+    justify-content: space-between;
+}
+.Social_media #G,.Social_media #I{
+    width: 26%;
+}
+.Address #L,.Address #O{
+    width: 1.8%;
+}
+.Social_media{
+    margin-left: 6%;
+    margin-top: 4px;
+    color: white;
+    width: 7%;
+}
+
+.Social_media{
+    
+    #H{
+        text-decoration: none;
+        color: white;
+        padding-top: 1px;
+        /* margin-left: 30px; */
+        font-size: 14px;
+        width: fit-content;
+        display: inline-block;
+    }
+    #F{
+        font-family: Khmer OS Siemreap;
+    }
+    #I{
+        /* height: 32px; */
+        margin-bottom: -8px;
+        /* position: absolute; */
+    }
+    #J{
+        text-decoration: none;
+        color: white;
+        margin-top: 5px;
+        /* margin-left: 30px; */
+        font-size: 14px;
+        width: fit-content;
+        display: inline-block;
+    }
+}
+.Address{
+    color: white;
+    margin-top: 4px;
+    width: 31%;
+}
+.Address{
+    #K{
+        font-family: Khmer OS Siemreap; 
+    }
+    #L{
+        position: absolute;
+        /* height: 55px;
+        margin-top: -12px;
+        margin-left: -8px; */
+    }
+    #M{
+        font-family: Khmer OS Siemreap;
+        font-size: 13px;
+        display: inline-block;
+        width: fit-content;
+        margin-left: 30px;
+        margin-top: 2px;
+    }
+    #O{
+        position: absolute;
+        /* height: 35px; */
+        margin-top: 4px;
+    }
+    #R{
+        color: white;
+        display: inline-block;
+        width: fit-content;
+        margin-top: 9px;
+        margin-left: 30px;
+        font-size: 15px;
+        font-weight: 500;
+    }
+}
+.Contact{
+    color: white;
+    margin-top: 4px;
+    margin-right: 3%;
+    display: flex;
+    justify-content: space-between;
+    width: 48%;
+}
+/* .Contact{
+    
+} */
+.Copyright{
+    width: 100%;
+    height: 4vh;
+    background-color: rgb(53, 128, 10);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Copyright{
+    .control_footer{
+        height: 2.1vh;
+        width: 25%;
+        display: flex;
+        justify-content: space-between;
+    }
+    #U{
+        height: 13px;
+    }
+    #V{
+        color: white;
+        font-size: 14px;
+    }
+}
+
+/* Css for editfooter */
+.detil .edit_footer{
+    width: 62%;
+    padding: 2%;
+    margin: 10px auto;
+    /* background-color: rgb(79, 97, 87); */
+    background-color: rgb(79, 97, 87);
+    border-radius: 20px;
+}
+.detil .edit_footer form{
+    width: 100%;
+}
+
+.detil .edit_footer form p{
+    color: white;
+}
+.detil .edit_footer form{
+    .text{
+        width: 100%;
+        height: 6vh;
+        padding: 0 4%;
+        margin: 1vh 0;
+        border-radius: 10px;
+        border-color: white;
+        font-family: Khmer OS Siemreap;
+        color: rgb(54, 54, 54);
+        font-weight: 600;
+    }
+    .submit {
+        background-color: white;
+        padding: 5px 10px;
+        border-radius: 5px;
+        border: 2px solid rgb(165, 165, 165);
+        margin-left: 10%;
+        cursor: pointer;
+    }
+
+    .submit:hover {
+        background-color: rgb(39, 149, 240);
+        color: #fff;
+        border: 2px solid white;
+        transition: 0.4s;
+    }
+
+    .Reset {
+        background-color: white;
+        padding: 5px 10px;
+        border-radius: 5px;
+        border: 2px solid rgb(165, 165, 165);
+        margin-left: 30%;
+        cursor: pointer;
+    }
+
+    .Reset:hover {
+        background-color: red;
+        color: #fff;
+        border: 2px solid white;
+        transition: 0.4s;
+    }
+}
+.detil .edit_footer form .text_qr{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.detil .edit_footer form .text_qr p{
+    width: 33.33%;
+    text-align: center;
+    color: white;
+    margin: 5px 0;
+}
+.detil .edit_footer form .qr_code{
+    width: 100%;
+    margin: 5px 0;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 10px;
+}
+.detil .edit_footer form .qr_code input{
+    cursor: pointer;
+}

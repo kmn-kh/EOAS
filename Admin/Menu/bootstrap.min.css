@@ -1,0 +1,88 @@
+
+
+
+button,
+input,
+optgroup,
+select,
+textarea {
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: inherit;
+    line-height: inherit
+}
+
+.list-unstyled {
+    padding-left: 0;
+    list-style: none;
+    width: 100%;
+}
+/* kj */
+
+
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out
+}
+
+@media (prefers-reduced-motion:reduce) {
+    .btn {
+        transition: none
+    }
+}
+
+.btn-check:focus+.btn,
+.btn:focus {
+    outline: 0;
+    /* box-shadow: 0 0 0 .25rem wheat; */
+}
+
+.btn.disabled,
+.btn:disabled,
+fieldset:disabled .btn {
+    pointer-events: none;
+    opacity: .65
+}
+/* btn */
+
+.collapse:not(.show) {
+    display: none
+}
+
+.collapsing {
+    height: 0;
+    overflow: hidden;
+    transition: height .35s ease;
+}
+
+@media (prefers-reduced-motion:reduce) {
+    .collapsing {
+        transition: none
+    }
+}
+/* col */
+
+.link-dark {
+    color: white;
+}
+
+/* ljkk */
+
+.p-3 {
+    padding: 1rem !important
+}
+/*# sourceMappingURL=bootstrap.min.css.map */

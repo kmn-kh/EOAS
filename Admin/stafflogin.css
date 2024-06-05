@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background: white;
+    display: flex;
+
+
+}
+
+.wrapper {
+    font-family: Khmer OS Content;
+    width: 30%;
+    height: 40vh;
+    padding: 10px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, .3);
+    margin-top: 50px;
+    margin: auto;
+    width: 500px;
+    max-width: 80%;
+
+}
+
+#title {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    background-color: rgb(4, 160, 108);
+    height: 8vh;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+}
+
+.phone {
+    margin-left: 180px;
+    padding: 10px;
+}
+
+#phone1 {
+    width: 60%;
+    height: 5vh;
+    margin-left: 100px;
+    background-color: rgba(215, 215, 215, 0.443);
+    border: none;
+    border-radius: 8px 8px 8px 8px;
+}
+
+#phone_personal {
+    margin-left: 180px;
+}
+
+#phone_personal1 {
+    width: 60%;
+    height: 5vh;
+    margin-left: 100px;
+    background-color: rgba(215, 215, 215, 0.443);
+    border: none;
+    border-radius: 8px 8px 8px 8px;
+}
+
+#signin {
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 20px;
+    margin-left: 180px;
+    margin-top: 20px;
+    background-color: rgb(8, 140, 74);
+    border: none;
+    border-radius: 8px 8px 8px 8px;
+    width: 25%;
+    height: 4vh;
+}
+
+/* Add this CSS code to your existing styles */
+
+@media (max-width: 768px) {
+    .wrapper {
+        width: 80%;
+        max-width: 100%;
+    }
+
+    #title {
+        font-size: 24px;
+    }
+
+    .phone,
+    #phone_personal {
+        margin-left: 10%;
+    }
+
+    #phone1,
+    #phone_personal1 {
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    #signin {
+        margin-left: 10%;
+        width: 70%;
+    }
+}
+
+@media (max-width: 480px) {
+    .wrapper {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    #title {
+        font-size: 20px;
+    }
+
+    .phone,
+    #phone_personal {
+        margin-left: 5%;
+    }
+
+    #phone1,
+    #phone_personal1 {
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    #signin {
+        margin-left: 5%;
+        width: 80%;
+    }
+}

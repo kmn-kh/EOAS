@@ -1,0 +1,28 @@
+@font-face {
+    font-family: Khmer OS Moullight;
+    src: url(Font/KhmerOSmuollight.ttf);
+}
+@font-face {
+    font-family: Times New Roman;
+    src: url(Font/times_0.ttf);
+}
+@font-face {
+    font-family: Khmer OS Siemreap;
+    src: url(Font/KhmerOSsiemreap.ttf);
+}
+.nav-tabs #nav-home-tab{
+    font-family: Khmer OS Siemreap;
+    margin-left: 8%;
+}
+.nav-tabs #nav-profile-tab{
+    font-family: Khmer OS Siemreap;
+}
+#nav-tab{
+    width: 100%;
+    /* margin-left: 8%; */
+    margin-top: 20px;
+    /* border: 0.5px solid; */
+}
+#nav-tabContent{
+    width: 100%;
+}

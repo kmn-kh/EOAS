@@ -1,0 +1,14 @@
+#info {
+    width: 30%;
+    margin-left: 30%;
+    margin-top: 10px;
+}
+
+.result {
+    height: 100px;
+    background-color: blue;
+}
+
+.result-page {
+    margin: 10px auto 10px 8%;
+}

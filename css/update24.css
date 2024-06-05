@@ -1,0 +1,407 @@
+* {
+    margin: 0px;
+    padding: 2px;
+}
+
+.change {
+    font-family: Kh koulen;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: -213px;
+    margin-left: 300px;;
+    background-color: rgb(4, 151, 102);
+    width: 77%;
+    height: 10vh;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+
+}
+
+.container1 {
+    background-color: white;
+    box-shadow: black 1px 1px 3px 1px;
+    width: 77%;
+    height: 168vh;
+    margin-left: 300px;
+    margin-top: -142px;
+}
+
+/* ///Title//// */
+
+/* 
+////info_personal//// */
+.inf_personal {
+    background-color: rgba(215, 215, 215, 0.26);
+    width: 90%;
+    height: 40vh;
+    padding: 10px;
+    margin: 10px;
+    margin-left: 65px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+#caption {
+    font-family: Khmer OS Content;
+    font-weight: bold;
+    background-color: rgba(186, 186, 186, 0.667);
+    width: 101.8%;
+    height: 7vh;
+    padding: 10px;
+    margin: -10px;
+    margin-left: -10px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+
+}
+
+#id1 {
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 89px;
+}
+
+.id {
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 40px;
+    border: none;
+    background-color: rgba(215, 215, 215, 0);
+}
+
+#fname {
+    font-family: Khmer OS Content;
+    padding: 10px;
+    margin-top: -30px;
+    margin-left: 48px;
+}
+
+#first_name {
+    font-family: Khmer OS Content;
+    margin-left: 40px;
+    border: none;
+    background-color: rgba(215, 215, 215, 0);
+}
+
+#last_name {
+    font-family: Khmer OS Content;
+    margin-left: -170px;
+    border: none;
+    background-color: rgba(215, 215, 215, 0);
+}
+
+#latang1 {
+    font-family: Khmer OS Content;
+    margin-left: -130px;
+
+}
+
+#latang {
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 20px;
+    /* width: 22%; */
+    border: none;
+    background-color: rgba(215, 215, 215, 0);
+}
+
+#sex {
+    font-family: Khmer OS Content;
+    margin-left: 90px;
+}
+
+#male {
+    font-family: Khmer OS Content;
+    margin-left: 30px;
+    border: none;
+    background-color: rgba(215, 215, 215, 0);
+}
+
+#date {
+    font-family: Khmer OS Content;
+    margin-left: 13px;
+}
+
+#dob {
+    margin-left: 43px;
+    border: none;
+    background-color: rgba(215, 215, 215, 0);
+}
+
+.address {
+    font-family: Khmer OS Content;
+    margin-left: 45px;
+
+}
+
+#address2 { 
+
+    margin-left: 43px;
+    margin-top: -15px;
+    font-family: Khmer OS Content;
+    border: none;
+    width: 137%;
+    background-color: rgba(215, 215, 215, 0);
+}
+.province{
+    font-family: Khmer OS Content;
+    margin-left: 99px;
+    margin-top: -20px;
+}
+#province1{
+    font-family: Khmer OS Content;
+    margin-left: 42px;
+    margin-top: 10px;
+    width: 30%;
+    border: none;
+    background-color: rgba(215, 215, 215, 0);
+}
+.phone {
+    font-family: Khmer OS Content;
+    margin-left: -5px;
+}
+
+#phone1 {
+    width: 20%;
+    margin-left: 43px;
+    border: none;
+    background-color: rgba(215, 215, 215, 0);
+}
+
+.parent_number {
+    font-family: Khmer OS Content;
+    margin-left: 5px;
+}
+
+#parent_number1 {
+    border: none;
+    background-color: rgba(215, 215, 215, 0);
+}
+
+.inf_study {
+    background-color: rgba(215, 215, 215, 0.26);
+    width: 102%;
+    height: 40vh;
+    padding: 10px;
+    margin-top: 60px;
+    margin-left: -14px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+#info_study{
+    font-family: Khmer OS Content;
+    font-weight: bold;
+    background-color: rgba(186, 186, 186, 0.667);
+    width: 101.8%;
+    height: 7vh;
+    padding: 10px;
+    margin: -10px;
+    margin-left: -10px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.level_study{
+    font-family: Khmer OS Content;
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 0px;
+  
+}
+#level_study1{
+    font-family: Khmer OS Content;
+    margin-left: 30px;
+    border: none;
+    background-color: rgba(215, 215, 215, 0)
+}
+.place_exambacll{
+    font-family: Khmer OS Content;
+    padding: 10px;
+    margin-left: 30px;
+    margin-top: -10px;
+}
+#place_exambacll1{
+    font-family: Khmer OS Content;
+    margin-left: 30px;
+    border: none;
+    background-color: rgba(215, 215, 215, 0)
+}
+
+.date_bacll{
+    font-family: Khmer OS Content;
+    margin-top: 0px;
+    margin-left: 50px;
+}
+#date_bacll1{
+    font-family: Khmer OS Content;
+    margin-left: 20px;
+    border: none;
+    background-color: rgba(215, 215, 215, 0)
+}
+.number_room{
+    font-family: Khmer OS Content;
+    margin-top: 0px;
+    margin-left: 65px;
+}
+#number_room1{
+    font-family: Khmer OS Content;
+    margin-left: 38px;
+    border: none;
+    background-color: rgba(215, 215, 215, 0)
+}
+.number_table{
+    font-family: Khmer OS Content;
+    margin-top: 0px;
+    margin-left: 95px;
+}
+#number_table1{
+    font-family: Khmer OS Content;
+    margin-left: 20px;
+    border: none;
+    background-color: rgba(215, 215, 215, 0)
+}
+.num_certificate{
+    font-family: Khmer OS Content;
+    margin-top: 0px;
+    margin-left: 35px;
+}
+#num_certificate_1{
+    font-family: Khmer OS Content;
+    margin-left: 40px;
+    border: none;
+    background-color: rgba(215, 215, 215, 0)
+}
+.num_personal{
+    font-family: Khmer OS Content;
+    margin-top: 0px;
+    margin-left: -12px;
+}
+#num_personal_1{
+    font-family: Khmer OS Content;
+    margin-left: 20px;
+    border: none;
+    background-color: rgba(215, 215, 215, 0)
+}
+.end_of_highschool{
+    font-family: Khmer OS Content;
+    margin-top: 0px;
+    margin-left: 30px;
+}
+#end_of_highschool1{
+    font-family: Khmer OS Content;
+    margin-left: 40px;
+    border: none;
+    background-color: rgba(215, 215, 215, 0)
+}
+.info_department{
+    background-color: rgba(215, 215, 215, 0.26);
+    width: 90%;
+    height: 25vh;
+    padding: 10px;
+    margin: 340px;
+    margin-left: 65px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+#dep_info{
+    font-family: Khmer OS Content;
+    font-weight: bold;
+    background-color: rgba(186, 186, 186, 0.667);
+    width: 102%;
+    height: 7vh;
+    padding: 10px;
+    margin: -10px;
+    margin-left: -12px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.skill{
+    font-family: Khmer OS Content;
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 60px;
+}
+#department{
+    font-family: Khmer OS Content;
+    margin-left: 40px;
+    border: none;
+    background-color: rgba(215, 215, 215, 0)
+}
+.skill1{
+    font-family: Khmer OS Content;
+    margin-top: 0px;
+    margin-left: 65px;
+}
+#skill1_1{
+    font-family: Khmer OS Content;
+    margin-left: 40px;
+    border: none;
+    background-color: rgba(215, 215, 215, 0)
+}
+.skill2{
+    font-family: Khmer OS Content;
+    margin-top: 0px;
+    margin-left: 135px; 
+}
+#skill2_2{
+    font-family: Khmer OS Content;
+    margin-left: 40px;
+    border: none;
+    background-color: rgba(215, 215, 215, 0)
+}
+#img_student1{
+    font-family: Khmer OS Content;
+    padding: 10px;
+    margin-top: -990px;
+    margin-left: 895px;
+}
+.img_stu{
+    background-color: rgba(215, 215, 215, 0.26);
+    width: 102%;
+    height: 37vh;
+    padding: 10px;
+    margin: 70px;
+    margin-left: -10px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.add_inf{
+    font-family: Khmer OS Content;
+    font-weight: bold;
+    background-color: rgba(186, 186, 186, 0.667);
+    width: 102%;
+    height: 7vh;
+    padding: 10px;
+    margin: -10px;
+    margin-left: -12px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+#birth_certificate{
+    font-family: Khmer OS Content;
+    margin-top: -300px;
+    margin-left: 45px; 
+}
+#img_score1{
+    font-family: Khmer OS Content;
+    margin-top: -190px;
+    margin-left: 205px;
+}
+#certificate1{
+    font-family: Khmer OS Content;
+    margin-top: -160px;
+    margin-left: 360px;
+}
+.submit1{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    float: right;
+    background-color: rgb(0, 158, 105);
+    width: 15%;
+    height: 5vh;
+    border: none;
+    border-radius: 8px 8px 8px 8px;
+    margin-top: 60px;
+}
+.submit1:hover{
+    box-shadow: 0px 0px 5px 1px black;
+}

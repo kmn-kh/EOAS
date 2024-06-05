@@ -1,0 +1,52 @@
+
+
+/* old */
+/* .img1 img {
+    width: 20%;
+
+
+}
+
+.title1 {
+    background-color: rgb(11, 156, 223);
+    border: none;
+    box-shadow: 2px 2px 2px 0px black;
+    width: 40%;
+    height: 41vh;
+    font-family: KH Koulen;
+    color: white;
+    text-align: center;
+    float: right;
+    position: absolute;
+    top: 13px;
+    right: 629px;
+
+}
+
+.title1 p {
+    margin-top: 30px;
+} */
+/* #link{
+            
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: black;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px 5px 5px 5px;
+    width: 20px;
+    padding:  0 10px;
+} */
+.info{
+    padding: 5px;
+    margin: 5px 10% 50px 10%;
+    font-size: 19px;
+}
+h5{
+    color: rgb(7, 97, 166);
+    font-size: 20px;
+    border-bottom: 3px solid;
+    width: 98%;
+    white-space: pre-wrap;
+}

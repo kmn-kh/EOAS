@@ -1,0 +1,114 @@
+@font-face {
+    font-family: KH Koulen;
+    src: url(Form_me/Font/Kh-Koulen.ttf);
+}
+.rgsform{
+    width: 84%;
+    margin-left: 8%;
+    background-color: rgba(84, 163, 48, 0.541);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: rgba(15, 15, 15, 0.911) 5px 3px 5px;
+}
+.rgsform #AE{
+    width: 10%;
+    margin-left: 45%;
+    margin-bottom: 10px;
+}
+.rgsform #AF{
+    text-align: center;
+    font-family: KH Koulen;
+    
+}
+.rgsform #AD,#AG,#AH,#AQ,#Texbort,#AU,#AK{
+    font-family: Khmer OS Siemreap;
+}
+.rgsform #AD{
+    width: 8.9%;
+    margin-left: 9.4%;
+    margin-bottom: 20px;
+}
+.rgsform #AG{
+    margin-left: 2%;
+}
+.rgsform #AI{
+    width: 34%;
+    height: 40px;
+    margin-left: 8.71%;
+    margin-bottom: 20px;
+}
+.rgsform #AP,#AR{
+    width: 34%;
+    height: 40px;
+    margin-bottom: 20px;
+}
+.rgsform #AJ{
+    width: 34%;
+    height: 40px;
+    margin-left: 6.39%;
+    margin-bottom: 20px;
+}
+.rgsform #AK{
+    margin-left: 42%;
+}
+.rgsform #AL{
+    width: 34%;
+    height: 40px;
+    margin-left: 2.11%;
+    margin-bottom: 20px;
+}
+.rgsform #AM{
+    width: 34%;
+    height: 40px;
+    margin-left: 7%;
+    margin-bottom: 20px;
+}
+.rgsform #AO{
+    width: 34%;
+    height: 40px;
+    margin-left: 3.7%;
+    margin-bottom: 20px;
+}
+.rgsform #choose{
+    margin-left: 8.2%;
+    margin-bottom: 20px;
+    height: 40px;
+    width: 34%;
+}
+.rgsform #AR{
+    margin-left: 0.3%;
+}
+.rgsform #AS{
+    width: 8.9%;
+    margin-left: 2.8%;
+}
+.rgsform #AT{
+    margin-left: 5.3%;
+    margin-bottom: 20px;
+    width: 8.9%;
+}
+.rgsform #AU{
+    margin-left: 25%;
+}
+.rgsform #AV{
+    width: 8.9%;
+}
+.rgsform #AW{
+    margin-left: 2%;
+    width: 8%;
+    margin-bottom: 20px;
+    color: white;
+    border: 4px solid white;
+    border-radius: 5px;
+    background-color: rgb(0, 132, 255);
+}
+.rgsform #AX{
+    margin-left: 2%;
+    width: 8%;
+    margin-bottom: 20px;
+    color: white;
+    background-color: red;
+    border-radius: 5px;
+    border: 4px solid white;
+}
