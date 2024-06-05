@@ -1,9 +1,9 @@
 <?php
-if(!$conn){
+if(!$staff_conn){
     die("Connection failed");
 }else{
     $sql = "SELECT * FROM footer WHERE id =1";
-    $result = $conn->query($sql);
+    $result = $staff_conn->query($sql);
     $row = $result->fetch_assoc();
 
     $youtube_name = $row['youtube_name'];

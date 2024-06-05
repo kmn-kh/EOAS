@@ -1,10 +1,10 @@
 <?php
 
-if (!$conn) {
+if (!$staff_conn) {
     die("Connection failed");
 } else {
     $sql = "SELECT * FROM header WHERE id =1";
-    $result = $conn->query($sql);
+    $result = $staff_conn->query($sql);
     $row = $result->fetch_assoc();
 
     $k_name = $row['k_name'];

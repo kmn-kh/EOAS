@@ -1,5 +1,6 @@
 <?php
-require_once ("db_connection.php");
+include("../Departmen/connect_database.php");
+require_once ("../db_connection.php");
 
 // Initialize the $search variable
 $search = "";
@@ -52,10 +53,9 @@ if (isset($_POST['submit'])) {
 <html>
 
 <head>
-    <link rel="stylesheet" href="Header/style1.css">
-    <link rel="stylesheet" href="body/body1.css">
-    <link rel="stylesheet" href="Footer/footer.css">
-    <link rel="stylesheet" href="Admin/Menu/Style9.css">
+    <link rel="stylesheet" href="../Header/style1.css">
+    <link rel="stylesheet" href="../Footer/footer.css">
+    <link rel="stylesheet" href="Menu/Style9.css">
     <style>
         table {
             font-family: arial, sans-serif;
@@ -118,7 +118,7 @@ if (isset($_POST['submit'])) {
     </style>
 
     <!-- Sizebare Bootstrap core CSS -->
-    <link href="Admin/Menu/bootstrap.min.css" rel="stylesheet">
+    <link href="Menu/bootstrap.min.css" rel="stylesheet">
 
     <style>
         .bd-placeholder-img {
@@ -137,8 +137,8 @@ if (isset($_POST['submit'])) {
     </style>
 
     <!-- Custom styles for this template -->
-    <link href="Admin/Menu/sidebars.css" rel="stylesheet">
-    <link rel="stylesheet" href="Admin/Menu/Style9.css">
+    <link href="Menu/sidebars.css" rel="stylesheet">
+    <link rel="stylesheet" href="Menu/Style9.css">
 
     <!-- nak -->
     <link rel="stylesheet" href="css/select12.css">
@@ -181,10 +181,10 @@ if (isset($_POST['submit'])) {
 <body>
 
     <?php
-    include ("Header/header.php");
+    include ("header.php");
     ?>
     <?php
-    include ("Admin/Menu/sizebare.php");
+    include ("Menu/sizebare.php");
     ?>
     <div class="detil">
         <div class="del">
@@ -253,7 +253,7 @@ if (isset($_POST['submit'])) {
     </div>
     </div>
     <?php
-    include ("Footer/footer.php");
+    include ("footer.php");
     ?>
     <!-- <script src="Admin/Menu/bootstrap.bundle.min.js"></script> -->
 </body>
